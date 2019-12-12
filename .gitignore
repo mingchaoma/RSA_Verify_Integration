@@ -1,2 +1,5 @@
 # ignore Twilio node helper
 node_modules/
+.DS_Store
+assets/
+functions/phone_lookup.js
