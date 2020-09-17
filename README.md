@@ -1,4 +1,4 @@
-# Integrate RSA SecureID with Twilio Verify Service for SMS OTP delivery
+# Integrate RSA SecurID with Twilio Verify Service for SMS OTP delivery
 
 Twilio Function acts as proxy between RSA Security Manager and Twilip Verify API. Please read this blog for more detail (https://www.twilio.com/blog/verify-rsa-secureid).
 
