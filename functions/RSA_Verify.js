@@ -26,14 +26,12 @@ exports.handler = function (context, event, callback) {
         //http request parameters
         var channel = event.Channel;
         var customcode = event.Customcode;
-        var custommessage = event.Custommessage;
         //call Verify API
         client.verify
           .services(verify_sid)
           .verifications.create({
             to: to,
             customCode: customcode,
-            customMessage: custommessage,
             channel: channel,
           })
           .then((verification) => {
